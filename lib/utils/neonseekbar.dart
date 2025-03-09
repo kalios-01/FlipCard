@@ -26,7 +26,7 @@ class NeonSeekBar extends StatelessWidget {
       child: Stack(
         children: [
           AnimatedContainer(
-            duration: const Duration(seconds:90 ),
+            duration: const Duration(seconds:60 ),
             width: progress * MediaQuery.of(context).size.width * 0.8,
             decoration: BoxDecoration(
               gradient: LinearGradient(
